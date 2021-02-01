@@ -28,9 +28,9 @@ module.exports = {
 
     getData: async(from, to, locations) => {
         if (locations == null)
-            return await PowerData.find({ Date: { $gte: from, $lte: to } }, '-_id -Type');
+            return await PowerData.find({ Date: { $gte: from, $lte: to } }, '-_id -Type').sort({ Date: 'ascending' });
         else
-            return await PowerData.find({ Date: { $gte: from, $lte: to }, Location: { $in: locations } }, '-_id -Type');
+            return await PowerData.find({ Date: { $gte: from, $lte: to }, Location: { $in: locations } }, '-_id -Type').sort({ Date: 'ascending' });
     },
 
     setData: async(hash, date, location, units) => {

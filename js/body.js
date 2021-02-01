@@ -1,5 +1,5 @@
-const apiUrl = "http://192.168.0.105:8080";
-//const apiUrl = "https://rw79kz.deta.dev";
+//const apiUrl = "http://192.168.0.105:8080";
+const apiUrl = "https://rw79kz.deta.dev";
 var locations;
 
 let defProps = {
@@ -159,6 +159,7 @@ $().ready(() => {
                     setTimeout(() => {
                         $('.modal-close').click();
                     }, 1000);
+                    $('#filter-go').click();
                 },
                 error: () => {
                     $('#form-errors').show().removeClass('form-fine').html("Incorrect Password.");
@@ -226,6 +227,7 @@ var updateChart = (resp, locations, from, to) => {
         }
         dse.push(temp);
     }
+    console.log(dse);
     canvasSet(labels, dse);
 }
 
