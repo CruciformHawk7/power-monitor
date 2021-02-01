@@ -1,4 +1,4 @@
-const apiUrl = "http://192.168.0.105:8080";
+const apiUrl = "https://rw79kz.deta.dev";
 
 let defProps = {
     step: {
