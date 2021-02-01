@@ -44,6 +44,8 @@ $().ready(() => {
         $('.label-place').css('color', '#777');
     });
     $('#filter-go').click(() => {
+        $('.canvas-placeholder').show();
+        $('.chart-canvas').hide();
         var from, to, locations;
         var slider = $('#slider').dateRangeSlider("values");
         from = slider.min;
@@ -96,8 +98,6 @@ $().ready(() => {
 });
 
 var updateChart = (resp, locations, from, to) => {
-    $('.canvas-placeholder').show();
-    $('.chart-canvas').hide();
     var dse = [];
     var labels = [];
 
