@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const { response } = express;
+const crypto = require('crypto');
 const app = express();
 const mongoose = require('mongoose');
 const db = require('./db');
@@ -17,7 +18,7 @@ app.use(cors());
  * TimeTo = Optional String; MMYY, Ex: 092019; Default - Last data.
  * Locations = Optional List of String; Ex: ATM,Sabu%27s; Default - All; URL Encoding is required
  * 
- * Response Paramters:
+ * Response:
  * [ {
  *      Location=XX,
  *      Date=ISO Formatted Date,
@@ -55,8 +56,53 @@ app.post('/api/data/get', async(req, res) => {
     }
 });
 
-app.post('/api/data/set', (req, res) => {
-    res.sendStatus(200);
+/**
+ * Set Data to backend.
+ * Request Parameters:
+ * Password: The Password.
+ * Date: Date when reading was taken.
+ * Location: Site where the reading was taken.
+ * UnitsConsumed: How many units the reading is.
+ * 
+ * Response:
+ * 200 (OK) if everything went fine.
+ * 400 (Bad Request) if anything goes wrong.
+ * 401 (Unauthorised) if incorrect password.
+ */
+
+app.post('/api/data/set', async(req, res) => {
+    if (req.query["Password"] == null || req.query["Date"] == null ||
+        req.query["Location"] == null || req.query["UnitsConsumed"] == null) {
+        res.sendStatus(400);
+    } else {
+        var hash = req.query["Password"];
+        var hashed = crypto.createHash('md5').update(hash).digest('hex');
+        var date = new Date(req.query["Date"]);
+        location = req.query["Location"];
+        var result = await db.setData(hashed, date, location, parseInt(req.query["UnitsConsumed"]));
+        if (result) {
+            res.sendStatus(200);
+        } else {
+            res.sendStatus(401);
+        }
+    }
+});
+
+/**
+ * Sends a plain array of all locations.
+ * Request Parameters:
+ * None
+ * 
+ * Response:
+ * [ "aa", "bb", ...]
+ */
+app.get('/api/locations/get', async(req, res) => {
+    var data = await db.getLocs();
+    var r = [];
+    data.forEach(e => {
+        r.push(e.location);
+    });
+    res.send(r);
 });
 
 module.exports = app;

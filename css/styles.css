@@ -269,12 +269,47 @@ ul.locations {
     display: inline-block;
 }
 
+.modal-form {
+    display: grid;
+    margin: 5px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-unit {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-buttons {
+    flex-direction: row;
+}
+
+.form-buttons>*:nth-child(2) {
+    margin-left: 25px;
+}
+
+#form-errors {
+    background-color: #FDF2F5;
+    color: #d50000;
+    border: 1px solid #d50000;
+    display: none;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.form-fine {
+    background-color: #eff7e6 !important;
+    color: #AED581 !important;
+    border: 1px solid #AED581 !important;
+}
+
 @media screen and (min-width: 768px) {
     .add-button {
         display: block;
         position: absolute;
         right: 2%;
-        top: 50%;
+        top: 35px;
         width: 30px;
         height: 30px;
         padding: 12px 12px 12px 12px;

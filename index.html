@@ -20,7 +20,33 @@
             </svg>
         </div>
         <div class="modal-content">
+            <div class="modal-form">
+                <div class="form-unit">
+                    <label for="form-date">Date</label>
+                    <input type="date" id="form-date" required>
+                </div>
+                <div class="form-unit">
+                    <label for="form-location">Location</label>
+                    <select id="form-location" required>
 
+                    </select>
+                </div>
+                <div class="form-unit">
+                    <label for="form-consumed">Units Consumed</label>
+                    <input type="number" id="form-consumed" required min="0">
+                </div>
+                <div class="form-unit">
+                    <label for="form-password">Password</label>
+                    <input type="password" id="form-password" required>
+                </div>
+                <div class="form-unit">
+                    <label id="form-errors"></label>
+                </div>
+                <div class="form-unit form-buttons">
+                    <button class="button" id="form-reset">Reset</button>
+                    <button class="accent-button" id="form-go">Go</button>
+                </div>
+            </div>
         </div>
     </div>
 

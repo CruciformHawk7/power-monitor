@@ -1,4 +1,6 @@
-const apiUrl = "https://rw79kz.deta.dev";
+const apiUrl = "http://192.168.0.105:8080";
+//const apiUrl = "https://rw79kz.deta.dev";
+var locations;
 
 let defProps = {
     step: {
@@ -32,6 +34,25 @@ $().ready(() => {
     });
     $('.add-button').click(() => {
         $('.modal-window').addClass('show-up');
+        $('#form-location').prop('disabled', true);
+        $.get({
+            url: apiUrl + '/api/locations/get',
+            success: (res) => {
+                var i = 0;
+                locations = res;
+                res.forEach(e => {
+                    $('#form-location').append($('<option></option>')
+                        .attr('value', i++)
+                        .text(e));
+                });
+                $('#form-location > *:nth-child(1)').prop('selected', true);
+                $('#form-location').prop('disabled', false);
+            },
+            error: () => {
+                $('#form-errors').html('Getting locations failed.');
+                $('#form-errors').show();
+            }
+        });
     });
     $('.modal-close').click(() => {
         $('.modal-window').removeClass('show-up');
@@ -50,6 +71,7 @@ $().ready(() => {
         var slider = $('#slider').dateRangeSlider("values");
         from = slider.min;
         to = slider.max;
+        to.setMonth(to.getMonth() + 1);
 
         formatFrom = `${from.getMonth() < 9 ? "0" + (from.getMonth()+1) : from.getMonth()+1}${from.getFullYear()}`;
         formatTo = `${to.getMonth() < 9 ? "0" + (to.getMonth()+1) : (to.getMonth()+1)}${to.getFullYear()}`;
@@ -95,6 +117,55 @@ $().ready(() => {
             $('.label-place').css('color', '#777') : $('.label-place').css('color', "#000");
     });
     $('#filter-go').click();
+    $('#form-go').click(() => {
+        $('#form-errors').hide().removeClass('form-fine').html();
+        var date, unit, location, password;
+        var isD = false,
+            isU = false,
+            isL = false,
+            isP = false;
+
+        if ($('#form-password').val().length == 0) {
+            $('#form-errors').show().html('No Password provided.');
+        } else isP = true;
+
+        if ($('#form-consumed').val() <= 0) {
+            $('#form-errors').show().html('Units cannot be 0 or less');
+        } else {
+            unit = parseInt($('#form-consumed').val());
+            if (isNaN(unit)) $('#form-errors').show().html('Units should be number.');
+            else isU = true;
+        }
+
+        if ($('#form-date').val() == '') {
+            $('#form-errors').show().html('Invalid Date.');
+        } else {
+            date = new Date($('#form-date').val());
+            isD = true;
+        }
+
+        if (isD && isU && isP) {
+            console.log('Going to Post!');
+            $('#form-errors').show().addClass('form-fine').html("Please wait");
+            $.post({
+                url: apiUrl + '/api/data/set?' + $.param({
+                    Password: $('#form-password').val(),
+                    Date: date.toISOString(),
+                    Location: locations[parseInt($('#form-location').val())],
+                    UnitsConsumed: unit
+                }),
+                success: () => {
+                    $('#form-errors').show().addClass('form-fine').html("Success!");
+                    setTimeout(() => {
+                        $('.modal-close').click();
+                    }, 1000);
+                },
+                error: () => {
+                    $('#form-errors').show().removeClass('form-fine').html("Incorrect Password.");
+                }
+            })
+        }
+    });
 });
 
 var updateChart = (resp, locations, from, to) => {
