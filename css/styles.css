@@ -87,7 +87,7 @@ nav {
 .filter-body {
     margin-top: 20px;
     display: none;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 @keyframes pop {
@@ -115,8 +115,7 @@ nav {
 
 .grid-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     margin: 1rem;
 }
 
@@ -205,6 +204,8 @@ nav {
 
 .buttons {
     justify-content: right;
+    flex-direction: row;
+    height: 35px;
 }
 
 .buttons>button {
@@ -251,6 +252,23 @@ button.button:active {
     background-color: #f0eeec;
 }
 
+#slider {
+    width: 80vw;
+    margin-left: 20px;
+}
+
+input[type="checkbox"] {
+    margin-left: 30px;
+}
+
+ul.locations {
+    list-style: none;
+}
+
+.locations>li {
+    display: inline-block;
+}
+
 @media screen and (min-width: 768px) {
     .add-button {
         display: block;
@@ -277,10 +295,12 @@ button.button:active {
         max-width: 80vw;
         margin-left: auto;
         margin-right: auto;
+        overflow-x: hidden;
     }
     .filter-body {
         display: none;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .chart {
         max-width: 80vw;
@@ -295,5 +315,11 @@ button.button:active {
     .canvas-placeholder {
         width: 80vw;
         height: 50vh;
+    }
+    .grid-container {
+        flex-direction: row;
+    }
+    #slider {
+        width: 70vw;
     }
 }

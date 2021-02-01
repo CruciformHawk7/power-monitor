@@ -1,29 +1,30 @@
 {
-  "name": "power-monitor",
-  "version": "1.0.0",
-  "description": "A simple power monitoring tool to display and visualise power usage details.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CruciformHawk7/power-monitor.git"
-  },
-  "keywords": [
-    "power",
-    "graph",
-    "monitor"
-  ],
-  "author": "Nikhil Hari",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cruciformhawk7/power-monitor/issues"
-  },
-  "homepage": "https://github.com/cruciformhawk7/power-monitor#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.11.12",
-    "pug": "^3.0.0"
-  }
+    "name": "power-monitor",
+    "version": "1.0.0",
+    "description": "A simple power monitoring tool to display and visualise power usage details.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node start.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CruciformHawk7/power-monitor.git"
+    },
+    "keywords": [
+        "power",
+        "graph",
+        "monitor"
+    ],
+    "author": "Nikhil Hari",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cruciformhawk7/power-monitor/issues"
+    },
+    "homepage": "https://github.com/cruciformhawk7/power-monitor#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.11.12",
+        "pug": "^3.0.0"
+    }
 }

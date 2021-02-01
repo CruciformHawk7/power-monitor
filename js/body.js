@@ -1,5 +1,15 @@
-var Units = {
-    months: 'months'
+let defProps = {
+    step: {
+        months: 1
+    },
+    bounds: {
+        min: new Date(2012, 1, 1),
+        max: new Date()
+    },
+    defaultValues: {
+        min: new Date(2012, 1, 1),
+        max: new Date()
+    }
 };
 
 var myChart;
@@ -23,10 +33,20 @@ $().ready(() => {
         $('.modal-window').removeClass('show-up');
     });
     $('#filter-reset').click(() => {
-        $('#unit').val(Units.days);
-        $('#count').val(7);
-        $('#get').html(Units.days);
-        applyFilter(Units.days, 7);
+        $('#slider').dateRangeSlider("values",
+            defProps.defaultValues.min, defProps.defaultValues.max);
+        $('#all').prop('checked', true);
+        $('.place').prop('disabled', true);
+        $('.label-place').css('color', '#777');
+    });
+    $("#slider").dateRangeSlider(defProps);
+    $('#all').prop('checked', true);
+    $('.place').prop('disabled', true);
+    $('.label-place').css('color', '#777');
+    $('#all').click(function() {
+        $('.place').prop('disabled', $(this).is(':checked'));
+        $(this).is(':checked') ?
+            $('.label-place').css('color', '#777') : $('.label-place').css('color', "#000");
     });
     //canvasSet();
 });

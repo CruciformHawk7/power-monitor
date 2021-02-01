@@ -1,18 +1,12 @@
-const { response } = require('express');
-const express = require('express')
-const app = express()
+const express = require('express');
+const { response } = express;
+const app = express();
 const path = require('path');
-const port = 8080
+const mongoose = require('mongoose');
+const db = require('./db');
+db.initialise(mongoose);
 
-app.set('view engine', 'pug')
-
-app.get('/PugTest', (req, res) => {
-    res.render('main', { Hello: "Hi" })
-});
-
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/views/main.html'));
-});
+//app.set('view engine', 'pug')
 
 app.get('/stylesheet', (req, res) => {
     res.sendFile(path.join(__dirname + '/css/styles.css'));
@@ -30,15 +24,30 @@ app.get('/chartjs', (req, res) => {
     res.sendFile(path.join(__dirname + '/js/Chart.bundle.min.js'));
 });
 
-app.post('/api/v1/getData', (req, res) => {
-    var range, type;
-    range = (req.query.Range == null) ? 7 : req.query['Range'];
-    type = (req.query.Type == null) ? 'days' : req.query['Type'];
-    if (req.query.Type.toLowerCase() != 'days' || req.query.Type.toLowerCase() != 'weeks' || req.query.Type.toLowerCase() != 'months') {
-        type = 'days';
-    }
-    let data = { Range: range, Type: type };
-    res.send(data);
+
+/**
+ * Get Data from the backend
+ * Request Parameters:
+ * TimeFrom = Optional String; MMYY, Ex: 0818; Default - From beginning
+ * TimeTo = Optional String; MMYY, Ex: 0919; Default - Last data.
+ * Locations = Optional List of String; Ex: ATM,Sabu's; Default - All.
+ * 
+ * Response Paramters:
+ * [ {
+ *      Location=XX,
+ *      Time=MMYY,
+ *      Unit=XXX
+ *   }, { ... }
+ * ]
+ */
+app.post('/api/data/get', (req, res) => {
+
 });
 
-app.listen(port);
+app.post('/api/data/set', (req, res) => {
+    res.sendStatus(200);
+});
+
+
+
+module.exports = app;
