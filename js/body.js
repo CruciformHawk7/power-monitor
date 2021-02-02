@@ -28,13 +28,11 @@ $.get({
         res.forEach(e => {
             $('.locations').append(`<li><input type="checkbox" id="loc${i}" class="place" disabled><label class="label-place disabled-text" for="loc${i++}">${e}</label></li>`);
         });
-        $('#form-location > *:nth-child(1)').prop('selected', true);
-        $('#form-location').prop('disabled', false);
+        $('.location-msg').hide().html("");
         $('#filter-go').click();
     },
     error: () => {
-        $('#form-errors').html('Getting locations failed.');
-        $('#form-errors').show();
+        $('.location-msg').html("Failed fetching location.");
     }
 });
 
