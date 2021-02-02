@@ -1,0 +1,2541 @@
+[{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d0a"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2017-08-28T00:00:00Z"
+  },
+  "UnitsConsumed": 198,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d0b"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2017-09-15T00:00:00Z"
+  },
+  "UnitsConsumed": 235,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d0c"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 272,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d0d"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2017-11-10T00:00:00Z"
+  },
+  "UnitsConsumed": 176,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d0e"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 174,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d0f"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 170,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d10"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 184,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d11"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-03-18T00:00:00Z"
+  },
+  "UnitsConsumed": 120,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d12"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-04-12T00:00:00Z"
+  },
+  "UnitsConsumed": 107,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d13"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-05-10T00:00:00Z"
+  },
+  "UnitsConsumed": 112,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d14"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 141,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d15"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 170,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d16"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-08-09T00:00:00Z"
+  },
+  "UnitsConsumed": 92,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d17"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-09-12T00:00:00Z"
+  },
+  "UnitsConsumed": 120,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d18"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 96,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d19"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-11-15T00:00:00Z"
+  },
+  "UnitsConsumed": 148,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d1a"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2018-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 199,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d1b"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-01-11T00:00:00Z"
+  },
+  "UnitsConsumed": 135,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d1c"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 111,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d1d"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 105,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d1e"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-04-15T00:00:00Z"
+  },
+  "UnitsConsumed": 184,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d1f"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-05-11T00:00:00Z"
+  },
+  "UnitsConsumed": 262,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d20"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 269,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d21"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-07-19T00:00:00Z"
+  },
+  "UnitsConsumed": 275,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d22"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 119,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d23"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 107,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d24"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-10-25T00:00:00Z"
+  },
+  "UnitsConsumed": 138,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d25"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-11-15T00:00:00Z"
+  },
+  "UnitsConsumed": 123,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d26"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2019-12-15T00:00:00Z"
+  },
+  "UnitsConsumed": 108,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d27"
+  },
+  "Location": "ATM",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 134,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d28"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2017-08-28T00:00:00Z"
+  },
+  "UnitsConsumed": 163,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d29"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2017-09-11T00:00:00Z"
+  },
+  "UnitsConsumed": 215,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d2a"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 266,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d2b"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2017-11-11T00:00:00Z"
+  },
+  "UnitsConsumed": 252,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d2c"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 238,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d2d"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 66,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d2e"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 109,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d2f"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 214,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d30"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-04-12T00:00:00Z"
+  },
+  "UnitsConsumed": 157,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d31"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-05-15T00:00:00Z"
+  },
+  "UnitsConsumed": 150,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d32"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 150,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d33"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 144,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d34"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-08-09T00:00:00Z"
+  },
+  "UnitsConsumed": 138,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d35"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-09-12T00:00:00Z"
+  },
+  "UnitsConsumed": 110,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d36"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 96,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d37"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-11-15T00:00:00Z"
+  },
+  "UnitsConsumed": 110,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d38"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2018-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 125,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d39"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 79,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d3a"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 65,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d3b"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 120,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d3c"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-04-15T00:00:00Z"
+  },
+  "UnitsConsumed": 138,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d3d"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-05-11T00:00:00Z"
+  },
+  "UnitsConsumed": 156,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d3e"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 144,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d3f"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-07-11T00:00:00Z"
+  },
+  "UnitsConsumed": 132,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d40"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 108,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d41"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 92,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d42"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-10-05T00:00:00Z"
+  },
+  "UnitsConsumed": 128,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d43"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-11-27T00:00:00Z"
+  },
+  "UnitsConsumed": 66,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d44"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2019-12-15T00:00:00Z"
+  },
+  "UnitsConsumed": 82,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d45"
+  },
+  "Location": "Grace",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 98,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d46"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2017-08-18T00:00:00Z"
+  },
+  "UnitsConsumed": 142,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d47"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2017-09-15T00:00:00Z"
+  },
+  "UnitsConsumed": 267,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d48"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 451,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d49"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2017-11-10T00:00:00Z"
+  },
+  "UnitsConsumed": 308,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d4a"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 286,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d4b"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 287,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d4c"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 348,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d4d"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 327,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d4e"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-04-15T00:00:00Z"
+  },
+  "UnitsConsumed": 194,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d4f"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-05-10T00:00:00Z"
+  },
+  "UnitsConsumed": 60,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d50"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 140,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d51"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 220,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d52"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-08-17T00:00:00Z"
+  },
+  "UnitsConsumed": 253,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d53"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-09-14T00:00:00Z"
+  },
+  "UnitsConsumed": 244,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d54"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-10-15T00:00:00Z"
+  },
+  "UnitsConsumed": 183,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d55"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-11-15T00:00:00Z"
+  },
+  "UnitsConsumed": 176,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d56"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2018-12-15T00:00:00Z"
+  },
+  "UnitsConsumed": 168,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d57"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-01-15T00:00:00Z"
+  },
+  "UnitsConsumed": 115,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d58"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-02-15T00:00:00Z"
+  },
+  "UnitsConsumed": 115,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d59"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 122,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d5a"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-04-15T00:00:00Z"
+  },
+  "UnitsConsumed": 245,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d5b"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-05-15T00:00:00Z"
+  },
+  "UnitsConsumed": 245,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d5c"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 367,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d5d"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-07-15T00:00:00Z"
+  },
+  "UnitsConsumed": 836,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d5e"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-08-15T00:00:00Z"
+  },
+  "UnitsConsumed": 762,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d5f"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-09-15T00:00:00Z"
+  },
+  "UnitsConsumed": 648,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d60"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-10-15T00:00:00Z"
+  },
+  "UnitsConsumed": 794,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d61"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-11-17T00:00:00Z"
+  },
+  "UnitsConsumed": 654,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d62"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2019-12-15T00:00:00Z"
+  },
+  "UnitsConsumed": 641,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d63"
+  },
+  "Location": "Honest",
+  "Date": {
+    "$date": "2020-01-15T00:00:00Z"
+  },
+  "UnitsConsumed": 627,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d64"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2017-08-28T00:00:00Z"
+  },
+  "UnitsConsumed": 210,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d65"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2017-09-18T00:00:00Z"
+  },
+  "UnitsConsumed": 248,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d66"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 285,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d67"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2017-11-10T00:00:00Z"
+  },
+  "UnitsConsumed": 290,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d68"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 294,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d69"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 117,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d6a"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 226,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d6b"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 213,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d6c"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-04-14T00:00:00Z"
+  },
+  "UnitsConsumed": 241,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d6d"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-05-14T00:00:00Z"
+  },
+  "UnitsConsumed": 268,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d6e"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-06-13T00:00:00Z"
+  },
+  "UnitsConsumed": 296,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d6f"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 323,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d70"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-08-09T00:00:00Z"
+  },
+  "UnitsConsumed": 210,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d71"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-09-12T00:00:00Z"
+  },
+  "UnitsConsumed": 244,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d72"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 218,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d73"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-11-06T00:00:00Z"
+  },
+  "UnitsConsumed": 258,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d74"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2018-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 297,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d75"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 217,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d76"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 225,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d77"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 228,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d78"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-04-10T00:00:00Z"
+  },
+  "UnitsConsumed": 371,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d79"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-05-08T00:00:00Z"
+  },
+  "UnitsConsumed": 442,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d7a"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-06-06T00:00:00Z"
+  },
+  "UnitsConsumed": 513,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d7b"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-07-19T00:00:00Z"
+  },
+  "UnitsConsumed": 259,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d7c"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 312,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d7d"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 306,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d7e"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-10-25T00:00:00Z"
+  },
+  "UnitsConsumed": 370,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d7f"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-11-27T00:00:00Z"
+  },
+  "UnitsConsumed": 309,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d80"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2019-12-18T00:00:00Z"
+  },
+  "UnitsConsumed": 343,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d81"
+  },
+  "Location": "Ganika",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 377,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d82"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2017-08-28T00:00:00Z"
+  },
+  "UnitsConsumed": 478,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d83"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2017-09-04T00:00:00Z"
+  },
+  "UnitsConsumed": 525,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d84"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 571,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d85"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2017-11-10T00:00:00Z"
+  },
+  "UnitsConsumed": 695,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d86"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 819,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d87"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 302,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d88"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 436,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d89"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 453,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d8a"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-04-12T00:00:00Z"
+  },
+  "UnitsConsumed": 321,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d8b"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-05-10T00:00:00Z"
+  },
+  "UnitsConsumed": 315,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d8c"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-06-11T00:00:00Z"
+  },
+  "UnitsConsumed": 607,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d8d"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 899,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d8e"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-08-09T00:00:00Z"
+  },
+  "UnitsConsumed": 445,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d8f"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-09-12T00:00:00Z"
+  },
+  "UnitsConsumed": 502,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d90"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 439,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d91"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-11-07T00:00:00Z"
+  },
+  "UnitsConsumed": 579,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d92"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2018-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 718,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d93"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 490,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d94"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 498,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d95"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 495,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d96"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-04-11T00:00:00Z"
+  },
+  "UnitsConsumed": 609,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d97"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-05-11T00:00:00Z"
+  },
+  "UnitsConsumed": 723,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d98"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 426,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d99"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-07-19T00:00:00Z"
+  },
+  "UnitsConsumed": 717,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d9a"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 324,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d9b"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 308,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d9c"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-10-25T00:00:00Z"
+  },
+  "UnitsConsumed": 357,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d9d"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-11-27T00:00:00Z"
+  },
+  "UnitsConsumed": 343,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d9e"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2019-12-07T00:00:00Z"
+  },
+  "UnitsConsumed": 355,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8d9f"
+  },
+  "Location": "Xerox",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 367,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da0"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2017-08-28T00:00:00Z"
+  },
+  "UnitsConsumed": 387,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da1"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2017-09-04T00:00:00Z"
+  },
+  "UnitsConsumed": 189,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da2"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 189,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da3"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2017-11-10T00:00:00Z"
+  },
+  "UnitsConsumed": 186,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da4"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 177,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da5"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 166,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da6"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 246,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da7"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 253,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da8"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-04-12T00:00:00Z"
+  },
+  "UnitsConsumed": 156,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8da9"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-05-10T00:00:00Z"
+  },
+  "UnitsConsumed": 155,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8daa"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-06-11T00:00:00Z"
+  },
+  "UnitsConsumed": 221,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dab"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 221,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dac"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-08-09T00:00:00Z"
+  },
+  "UnitsConsumed": 292,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dad"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-09-12T00:00:00Z"
+  },
+  "UnitsConsumed": 295,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dae"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 253,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8daf"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-11-06T00:00:00Z"
+  },
+  "UnitsConsumed": 234,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db0"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2018-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 235,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db1"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 315,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db2"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 315,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db3"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 294,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db4"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-04-11T00:00:00Z"
+  },
+  "UnitsConsumed": 251,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db5"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-05-11T00:00:00Z"
+  },
+  "UnitsConsumed": 251,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db6"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 249,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db7"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-07-19T00:00:00Z"
+  },
+  "UnitsConsumed": 305,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db8"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 319,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8db9"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 233,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dba"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-10-25T00:00:00Z"
+  },
+  "UnitsConsumed": 231,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dbb"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-11-27T00:00:00Z"
+  },
+  "UnitsConsumed": 161,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dbc"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2019-12-21T00:00:00Z"
+  },
+  "UnitsConsumed": 178,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dbd"
+  },
+  "Location": "Jacobz",
+  "Date": {
+    "$date": "2020-01-15T00:00:00Z"
+  },
+  "UnitsConsumed": 195,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dbe"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2017-08-28T00:00:00Z"
+  },
+  "UnitsConsumed": 664,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dbf"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2017-09-08T00:00:00Z"
+  },
+  "UnitsConsumed": 718,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc0"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 771,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc1"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2017-11-10T00:00:00Z"
+  },
+  "UnitsConsumed": 501,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc2"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 522,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc3"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 421,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc4"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 559,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc5"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 575,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc6"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-04-12T00:00:00Z"
+  },
+  "UnitsConsumed": 433,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc7"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-05-10T00:00:00Z"
+  },
+  "UnitsConsumed": 403,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc8"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-06-11T00:00:00Z"
+  },
+  "UnitsConsumed": 496,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dc9"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 497,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dca"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-08-09T00:00:00Z"
+  },
+  "UnitsConsumed": 586,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dcb"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-09-12T00:00:00Z"
+  },
+  "UnitsConsumed": 681,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dcc"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 579,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dcd"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-11-06T00:00:00Z"
+  },
+  "UnitsConsumed": 360,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dce"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2018-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 359,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dcf"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 492,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd0"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 491,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd1"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 491,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd2"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-04-11T00:00:00Z"
+  },
+  "UnitsConsumed": 300,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd3"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-05-11T00:00:00Z"
+  },
+  "UnitsConsumed": 308,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd4"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-06-15T00:00:00Z"
+  },
+  "UnitsConsumed": 500,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd5"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-07-19T00:00:00Z"
+  },
+  "UnitsConsumed": 754,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd6"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 855,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd7"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 668,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd8"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-10-25T00:00:00Z"
+  },
+  "UnitsConsumed": 855,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dd9"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-11-27T00:00:00Z"
+  },
+  "UnitsConsumed": 724,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dda"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2019-12-09T00:00:00Z"
+  },
+  "UnitsConsumed": 717,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8ddb"
+  },
+  "Location": "Dreamland",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 709,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8ddc"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2017-08-28T00:00:00Z"
+  },
+  "UnitsConsumed": 903,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8ddd"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2017-09-03T00:00:00Z"
+  },
+  "UnitsConsumed": 1144,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dde"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2017-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 1384,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8ddf"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2017-11-10T00:00:00Z"
+  },
+  "UnitsConsumed": 935,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de0"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2017-12-11T00:00:00Z"
+  },
+  "UnitsConsumed": 1011,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de1"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 831,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de2"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-02-12T00:00:00Z"
+  },
+  "UnitsConsumed": 1251,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de3"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-03-15T00:00:00Z"
+  },
+  "UnitsConsumed": 1119,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de4"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-04-12T00:00:00Z"
+  },
+  "UnitsConsumed": 790,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de5"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-05-10T00:00:00Z"
+  },
+  "UnitsConsumed": 789,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de6"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-06-11T00:00:00Z"
+  },
+  "UnitsConsumed": 963,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de7"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-07-12T00:00:00Z"
+  },
+  "UnitsConsumed": 964,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de8"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-08-09T00:00:00Z"
+  },
+  "UnitsConsumed": 972,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8de9"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-09-12T00:00:00Z"
+  },
+  "UnitsConsumed": 1022,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dea"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-10-10T00:00:00Z"
+  },
+  "UnitsConsumed": 852,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8deb"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-11-06T00:00:00Z"
+  },
+  "UnitsConsumed": 623,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dec"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2018-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 624,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8ded"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 846,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dee"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 877,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8def"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 866,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df0"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-04-11T00:00:00Z"
+  },
+  "UnitsConsumed": 752,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df1"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-05-11T00:00:00Z"
+  },
+  "UnitsConsumed": 752,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df2"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-06-13T00:00:00Z"
+  },
+  "UnitsConsumed": 745,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df3"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-07-19T00:00:00Z"
+  },
+  "UnitsConsumed": 863,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df4"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 748,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df5"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 661,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df6"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-10-25T00:00:00Z"
+  },
+  "UnitsConsumed": 870,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df7"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-11-27T00:00:00Z"
+  },
+  "UnitsConsumed": 782,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df8"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2019-12-03T00:00:00Z"
+  },
+  "UnitsConsumed": 560,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8df9"
+  },
+  "Location": "Sabu's",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 561,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dfa"
+  },
+  "Location": "Terry's",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 233,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dfb"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 49,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dfc"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-02-11T00:00:00Z"
+  },
+  "UnitsConsumed": 47,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dfd"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-03-11T00:00:00Z"
+  },
+  "UnitsConsumed": 66,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dfe"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-04-13T00:00:00Z"
+  },
+  "UnitsConsumed": 89,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8dff"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-05-15T00:00:00Z"
+  },
+  "UnitsConsumed": 101,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e00"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-06-17T00:00:00Z"
+  },
+  "UnitsConsumed": 113,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e01"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-07-19T00:00:00Z"
+  },
+  "UnitsConsumed": 113,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e02"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-08-19T00:00:00Z"
+  },
+  "UnitsConsumed": 176,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e03"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-09-17T00:00:00Z"
+  },
+  "UnitsConsumed": 331,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e04"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-10-25T00:00:00Z"
+  },
+  "UnitsConsumed": 358,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e05"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-11-27T00:00:00Z"
+  },
+  "UnitsConsumed": 192,
+  "Type": "Real"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e06"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2019-12-04T00:00:00Z"
+  },
+  "UnitsConsumed": 170,
+  "Type": "Calculated"
+},{
+  "_id": {
+    "$oid": "601794cebf43b44f5b7a8e07"
+  },
+  "Location": "Sports",
+  "Date": {
+    "$date": "2020-01-10T00:00:00Z"
+  },
+  "UnitsConsumed": 147,
+  "Type": "Real"
+}]

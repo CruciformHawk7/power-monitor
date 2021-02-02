@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6018307b150dd4207577cdac"
+  },
+  "location": "ATM"
+},{
+  "_id": {
+    "$oid": "601830818fbe6b2158d500d1"
+  },
+  "location": "Dreamland"
+},{
+  "_id": {
+    "$oid": "601830a4150dd4207577cdad"
+  },
+  "location": "Ganika"
+},{
+  "_id": {
+    "$oid": "601830b5150dd4207577cdae"
+  },
+  "location": "Grace"
+},{
+  "_id": {
+    "$oid": "601830c2150dd4207577cdaf"
+  },
+  "location": "Honest"
+},{
+  "_id": {
+    "$oid": "601830cf150dd4207577cdb0"
+  },
+  "location": "Jacobz"
+},{
+  "_id": {
+    "$oid": "601830e0150dd4207577cdb1"
+  },
+  "location": "Sabu's"
+},{
+  "_id": {
+    "$oid": "601830f4150dd4207577cdb2"
+  },
+  "location": "Terry's"
+},{
+  "_id": {
+    "$oid": "60183102150dd4207577cdb3"
+  },
+  "location": "Xerox"
+},{
+  "_id": {
+    "$oid": "60183122150dd4207577cdb4"
+  },
+  "location": "Sports"
+}]

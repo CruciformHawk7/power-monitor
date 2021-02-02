@@ -260,6 +260,7 @@ var initChart = () => {
             datasets: []
         },
         options: {
+            maintainAspectRatio: false,
             scales: {
                 yAxes: [{
                     ticks: {

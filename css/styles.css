@@ -87,7 +87,7 @@ nav {
 .filter-body {
     margin-top: 20px;
     display: none;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 @keyframes pop {
@@ -174,20 +174,20 @@ nav {
 }
 
 .chart {
-    width: 95vw;
+    width: 90vw;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .chart-canvas {
-    width: 95vw;
+    width: 80vw;
     display: none;
 }
 
 .canvas-placeholder {
     width: 95vw;
-    height: 50vw;
+    height: 50vh;
     background: repeating-linear-gradient(to left, #fff, #ddd);
     animation: load 5s linear infinite forwards;
     background-size: 200% auto;
@@ -343,16 +343,17 @@ ul.locations {
     }
     .chart {
         max-width: 80vw;
+        max-height: 70vh;
         margin-left: auto;
         margin-right: auto;
     }
     .chart-canvas {
         width: 80vw;
-        height: 50vh;
+        height: 70vh;
         display: none;
     }
     .canvas-placeholder {
-        width: 80vw;
+        width: 65vw;
         height: 50vh;
     }
     .grid-container {
