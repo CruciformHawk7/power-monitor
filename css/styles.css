@@ -304,6 +304,10 @@ ul.locations {
     border: 1px solid #AED581 !important;
 }
 
+.disabled-text {
+    color: #777;
+}
+
 @media screen and (min-width: 768px) {
     .add-button {
         display: block;

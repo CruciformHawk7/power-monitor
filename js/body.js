@@ -2,19 +2,41 @@
 const apiUrl = "https://rw79kz.deta.dev";
 var locations;
 
+var lastDate = new Date();
+lastDate.setMonth(lastDate.getMonth() + 1);
+
 let defProps = {
     step: {
         months: 1
     },
     bounds: {
         min: new Date(2017, 7, 1),
-        max: new Date()
+        max: lastDate
     },
     defaultValues: {
         min: new Date(2017, 7, 1),
-        max: new Date()
+        max: lastDate
     }
 };
+
+$.get({
+    url: apiUrl + '/api/locations/get',
+    success: (res) => {
+        var i = 0;
+        locations = res;
+        var i = 0;
+        res.forEach(e => {
+            $('.locations').append(`<li><input type="checkbox" id="loc${i}" class="place" disabled><label class="label-place disabled-text" for="loc${i++}">${e}</label></li>`);
+        });
+        $('#form-location > *:nth-child(1)').prop('selected', true);
+        $('#form-location').prop('disabled', false);
+        $('#filter-go').click();
+    },
+    error: () => {
+        $('#form-errors').html('Getting locations failed.');
+        $('#form-errors').show();
+    }
+});
 
 var myChart;
 
@@ -67,35 +89,36 @@ $().ready(() => {
     $('#filter-go').click(() => {
         $('.canvas-placeholder').show();
         $('.chart-canvas').hide();
-        var from, to, locations;
+        var from, to, lcs = [];
         var slider = $('#slider').dateRangeSlider("values");
         from = slider.min;
         to = slider.max;
-        to.setMonth(to.getMonth() + 1);
+        //to.setMonth(to.getMonth() + 1);
 
         formatFrom = `${from.getMonth() < 9 ? "0" + (from.getMonth()+1) : from.getMonth()+1}${from.getFullYear()}`;
         formatTo = `${to.getMonth() < 9 ? "0" + (to.getMonth()+1) : (to.getMonth()+1)}${to.getFullYear()}`;
 
-        if ($('#all').is(':checked')) locations = ['ATM', 'Dreamland', 'Ganika', 'Grace', 'Honest',
-            'Jacobz', 'Sabu\'s', 'Sports', 'Terry\'s', 'Xerox'
-        ];
+        if ($('#all').is(':checked')) lcs = locations;
         else {
-            locations = [];
-            if ($('#atm').is(':checked')) locations.push('ATM');
-            if ($('#dreamland').is(':checked')) locations.push('Dreamland');
-            if ($('#ganika').is(':checked')) locations.push('Ganika');
-            if ($('#grace').is(':checked')) locations.push('Grace');
-            if ($('#honest').is(':checked')) locations.push('Honest');
-            if ($('#jacobz').is(':checked')) locations.push('Jacobz');
-            if ($('#sabus').is(':checked')) locations.push('Sabu\'s');
-            if ($('#sports').is(':checked')) locations.push('Sports');
-            if ($('#terrys').is(':checked')) locations.push('Terry\'s');
-            if ($('#xerox').is(':checked')) locations.push('Xerox');
+            lcs = [];
+            for (var i = 0; i < locations.length; i++) {
+                if ($(`#loc${i}`).is(':checked')) lcs.push(locations[i]);
+            }
+            // if ($('#atm').is(':checked')) lcs.push('ATM');
+            // if ($('#dreamland').is(':checked')) lcs.push('Dreamland');
+            // if ($('#ganika').is(':checked')) lcs.push('Ganika');
+            // if ($('#grace').is(':checked')) lcs.push('Grace');
+            // if ($('#honest').is(':checked')) lcs.push('Honest');
+            // if ($('#jacobz').is(':checked')) lcs.push('Jacobz');
+            // if ($('#sabus').is(':checked')) lcs.push('Sabu\'s');
+            // if ($('#sports').is(':checked')) lcs.push('Sports');
+            // if ($('#terrys').is(':checked')) lcs.push('Terry\'s');
+            // if ($('#xerox').is(':checked')) lcs.push('Xerox');
         }
         //console.log(`${locations.toString()} ${formatFrom} ${formatTo}`);
         $.post({
             //url: apiUrl + '/api/data/get',
-            url: apiUrl + `/api/data/get?TimeFrom=${formatFrom}&TimeTo=${formatTo}&Locations=${locations.toString()}`,
+            url: apiUrl + `/api/data/get?TimeFrom=${formatFrom}&TimeTo=${formatTo}&Locations=${lcs.toString()}`,
             // jQuery doesn't play well even with Strings, strange.
             // data: {
             //     TimeFrom: `${formatFrom}`,
@@ -116,7 +139,6 @@ $().ready(() => {
         $(this).is(':checked') ?
             $('.label-place').css('color', '#777') : $('.label-place').css('color', "#000");
     });
-    $('#filter-go').click();
     $('#form-go').click(() => {
         $('#form-errors').hide().removeClass('form-fine').html();
         var date, unit, location, password;
@@ -145,7 +167,7 @@ $().ready(() => {
         }
 
         if (isD && isU && isP) {
-            console.log('Going to Post!');
+            //console.log('Going to Post!');
             $('#form-errors').show().addClass('form-fine').html("Please wait");
             $.post({
                 url: apiUrl + '/api/data/set?' + $.param({
@@ -227,7 +249,7 @@ var updateChart = (resp, locations, from, to) => {
         }
         dse.push(temp);
     }
-    console.log(dse);
+    //console.log(dse);
     canvasSet(labels, dse);
 }
 
