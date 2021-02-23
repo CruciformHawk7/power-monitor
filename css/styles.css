@@ -6,6 +6,23 @@ body {
     justify-content: center;
 }
 
+body::before {
+    content: '';
+    background-image: url('../res/final-slider-11.jpg');
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(4px) brightness(20%);
+    z-index: -1;
+}
+
+* {
+    color: #fff;
+}
+
 h1,
 h2,
 h3 {
@@ -21,10 +38,10 @@ h3 {
 nav {
     padding: 15px;
     backdrop-filter: blur(8px);
-    background: #fff9;
+    background: #0009;
     border-bottom: 1px solid #dadada;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -34,7 +51,7 @@ nav {
 
 .filter-area {
     width: 95vw;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -47,6 +64,7 @@ nav {
 
 .expand-area {
     color: #000;
+    background-color: #fff;
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -133,7 +151,12 @@ nav {
     bottom: 19px;
     overflow: auto;
     background-color: #fff;
+    color: #000;
     box-shadow: 0 0 5px 3px #ccc;
+}
+
+.modal-content * {
+    color: #000;
 }
 
 .modal-close {
@@ -175,7 +198,7 @@ nav {
 
 .chart {
     width: 90vw;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -186,11 +209,17 @@ nav {
 }
 
 .canvas-placeholder {
-    width: 95vw;
-    height: 50vh;
-    background: repeating-linear-gradient(to left, #fff, #ddd);
-    animation: load 5s linear infinite forwards;
+    width: 100vw;
+    height: 70vh;
+    background: repeating-linear-gradient(to left, #000, #333);
+    animation: load 10s linear infinite forwards;
     background-size: 200% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.incenter {
+    align-self: center;
 }
 
 @keyframes load {
@@ -308,12 +337,30 @@ ul.locations {
     color: #777;
 }
 
+.header-text {
+    margin-left: 18px;
+}
+
+.college-logo {
+    background-image: url('../res/clogo-mob.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+}
+
 @media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .add-button {
-        display: block;
+        display: flex;
         position: absolute;
+        align-content: center;
         right: 2%;
-        top: 35px;
+        top: 88px;
         width: 30px;
         height: 30px;
         padding: 12px 12px 12px 12px;
@@ -321,10 +368,27 @@ ul.locations {
         border-radius: 27px;
         border: 1px solid #dadada;
         background-color: #fff;
-        transition: background-color ease 200ms;
+        transition: background-color, width ease 200ms;
+    }
+    .add-button h3 {
+        overflow: hidden;
+        display: none;
+        opacity: 0;
+        margin-left: 10px;
+        margin-top: 3px;
+        color: #000;
+        transition: opacity ease 200ms;
+    }
+    .add-button:hover {
+        width: 150px;
+    }
+    .add-button:hover h3 {
+        opacity: 1;
+        display: inline-block;
     }
     .add-button>svg {
         margin-top: -2px;
+        width: 30px;
     }
     .add-button:hover {
         background: #eee;
@@ -361,5 +425,13 @@ ul.locations {
     }
     #slider {
         width: 70vw;
+    }
+    .college-logo {
+        width: 450px;
+        height: 80px;
+        background-image: url('../res/clogo.png');
+    }
+    .header-text {
+        font-size: 24px;
     }
 }

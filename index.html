@@ -54,7 +54,8 @@
     <header>
         <nav>
             <!-- Heading-->
-            <h2>Power Monitor</h2>
+            <div class="college-logo"></div>
+            <h2 class="header-text">Smart Power Monitor</h2>
             <!-- Add button -->
             <div class="add-button">
                 <svg viewBox="0 0 448 512">
@@ -67,6 +68,7 @@
                         </path>
                     </g>
                 </svg>
+                <h3>Add Entry</h3>
             </div>
         </nav>
     </header>
@@ -94,16 +96,6 @@
                 <ul class="locations">
                     <li><input type="checkbox" id="all" checked><label for="all">All</label></li>
                     <li class="location-msg">Getting locations...</li>
-                    <!-- <li><input type="checkbox" id="atm" class="place"><label class="label-place" for="atm">ATM</label></li>
-                    <li><input type="checkbox" id="dreamland" class="place"><label class="label-place" for="dreamland">Dreamland</label></li>
-                    <li><input type="checkbox" id="ganika" class="place"><label class="label-place" for="ganika">Ganika</label></li>
-                    <li><input type="checkbox" id="grace" class="place"><label class="label-place" for="grace">Grace</label></li>
-                    <li><input type="checkbox" id="honest" class="place"><label class="label-place" for="honest">Honest</label></li>
-                    <li><input type="checkbox" id="jacobz" class="place"><label class="label-place" for="jacobz">Jacobz</label></li>
-                    <li><input type="checkbox" id="sabus" class="place"><label class="label-place" for="sabus">Sabu's</label></li>
-                    <li><input type="checkbox" id="sports" class="place"><label class="label-place" for="sports">Sports</label></li>
-                    <li><input type="checkbox" id="terrys" class="place"><label class="label-place" for="terrys">Terry's</label></li>
-                    <li><input type="checkbox" id="xerox" class="place"><label class="label-place" for="xerox">Xerox</label></li> -->
                 </ul>
             </div>
             <div class="grid-container"></div>
@@ -116,7 +108,9 @@
 
     <!-- Chart section -->
     <section class="chart ">
-        <div class="canvas-placeholder"></div>
+        <div class="canvas-placeholder">
+            <h1 class="incenter">Please wait</h1>
+        </div>
         <canvas class="chart-canvas"></canvas>
     </section>
 
