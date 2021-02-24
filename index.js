@@ -56,6 +56,36 @@ app.post('/api/data/get', async(req, res) => {
     }
 });
 
+app.get('/api/data/get', async(req, res) => {
+    var from, to, locations;
+    if (req.query['TimeFrom'] == null) {
+        from = new Date(Date.UTC(2017, 7, 1));
+    } else {
+        let m = req.query['TimeFrom'].slice(0, 2);
+        let y = req.query['TimeFrom'].slice(2, 6);
+        from = new Date(Date.UTC(parseInt(y), (parseInt(m) - 1), 1));
+    }
+    if (req.query['TimeTo'] == null) {
+        to = new Date();
+    } else {
+        let m = req.query['TimeTo'].slice(0, 2);
+        let y = req.query['TimeTo'].slice(2, 6);
+        to = new Date(Date.UTC(parseInt(y), parseInt(m) - 1, 1));
+    }
+    if (req.query['Locations'] == null || req.query['Locations'] == '') {
+        locations = null;
+    } else {
+        locations = req.query['Locations'].split(',');
+    }
+    if (to < from) {
+        res.sendStatus(400);
+    } else {
+        var resp = await db.getData(from, to, locations);
+        res.setHeader('Content-Type', 'application/json');
+        res.send(resp);
+    }
+});
+
 /**
  * Set Data to backend.
  * Request Parameters:
