@@ -1,3 +1,3 @@
 module.exports = {
-    MongoDBConnectionString: "mongodb://localhost:27017/PowerMon"
+    MongoDBConnectionString: "mongodb://localhost:27017/Power"
 };
